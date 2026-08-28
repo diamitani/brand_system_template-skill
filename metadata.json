@@ -1,0 +1,29 @@
+{
+  "name": "brand_system_template",
+  "full_name": "brand_system_template-skill",
+  "category": "99-uncategorized",
+  "description": "Brand System Template \u2014 first-time user flow",
+  "source_file": "brand-system-template.md",
+  "created": "2026-08-28T17:21:19.790936",
+  "author": "diamitani",
+  "tags": [
+    "99_uncategorized",
+    "ai_skill",
+    "agent_framework"
+  ],
+  "framework": {
+    "type": "SKILL.md",
+    "compliance": "PAL v2.0",
+    "intake_required": true,
+    "mcp_ready": false
+  },
+  "placeholders": {
+    "{{COMPANY_NAME}}": "Replace with your company name",
+    "{{COMPANY_SLUG}}": "Replace with company URL slug",
+    "{{USER_HOME}}": "User home directory path",
+    "{{N8N_INSTANCE_URL}}": "Your n8n instance URL",
+    "{{HUBSPOT_PORTAL_ID}}": "HubSpot portal ID",
+    "{{ADMIN_EMAIL}}": "Admin email address",
+    "{{MEETINGS_URL}}": "Calendar meetings URL"
+  }
+}
